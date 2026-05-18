@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "entwicklungsstufen",
+      "app_id": "6a0afe1e9fbe2869afe78216",
+      "path": "/rest/apps/6a0afe1e9fbe2869afe78216/records",
+      "allowed_fields": [
+        "name",
+        "beschreibung",
+        "level",
+        "besonderheiten"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Entwicklungsstufen — Formular"
+    },
+    {
+      "entity": "fundorte",
+      "app_id": "6a0afe27e626c150192ec8f1",
+      "path": "/rest/apps/6a0afe27e626c150192ec8f1/records",
+      "allowed_fields": [
+        "ortsname",
+        "typ",
+        "datum",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Fundorte — Formular"
+    },
+    {
+      "entity": "digimon_sammlung",
+      "app_id": "6a0afe2a52bbcc96eaf6263d",
+      "path": "/rest/apps/6a0afe2a52bbcc96eaf6263d/records",
+      "allowed_fields": [
+        "digimon_name",
+        "nummer",
+        "attribut",
+        "typ",
+        "erwerbsdatum",
+        "zustand",
+        "besonderheiten",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Digimon Sammlung — Formular"
+    },
+    {
+      "entity": "neues_digimon_hinzufuegen",
+      "app_id": "6a0afe2bb2622b0fdc1b48ab",
+      "path": "/rest/apps/6a0afe2bb2622b0fdc1b48ab/records",
+      "allowed_fields": [
+        "name",
+        "datum",
+        "schnellnotizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Neues Digimon hinzufügen — Formular"
+    }
+  ]
+}

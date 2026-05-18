@@ -1,0 +1,8 @@
+- Entwicklungsstufen (entwicklungsstufen): name[string/text], beschreibung[string/textarea], level[number], besonderheiten[string/textarea]
+- Fundorte (fundorte): ortsname[string/text], typ[lookup/select], datum[date/date], notizen[string/textarea]
+- Digimon Sammlung (digimon_sammlung): digimon_name[string/text], nummer[string/text], entwicklungsstufe[applookup/select], attribut[lookup/select], typ[multiplelookup/checkbox], fundort[applookup/select], erwerbsdatum[date/date], zustand[lookup/select], besonderheiten[string/textarea], bild[file], notizen[string/textarea]
+  → entwicklungsstufe links to app_id 6a0afe1e9fbe2869afe78216
+  → fundort links to app_id 6a0afe27e626c150192ec8f1
+- Neues Digimon hinzufügen (neues_digimon_hinzufuegen): name[string/text], entwicklungsstufe_auswahl[applookup/select], fundort_auswahl[applookup/select], datum[date/date], schnellnotizen[string/textarea]
+  → entwicklungsstufe_auswahl links to app_id 6a0afe1e9fbe2869afe78216
+  → fundort_auswahl links to app_id 6a0afe27e626c150192ec8f1
